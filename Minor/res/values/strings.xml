@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GPS Tracker</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="GoogleMAPS">Google MAPS</string>
+    <string name="SendSMS">Send SMS (offline)</string>
+    <string name="clientserver">Send SMS (client server)</string>
+    <string name="curlocation">Get Current Location</string>
+    <string name="Application">Application created  by B1 Group</string>
+    <string name="phone_label">Enter Phone Number</string>
+    <string name="sms_label">Enter SMS</string>
+    <string name="send_sms_label">SEND</string>
+    <string name="title_activity_SendSMS">Send SMS (offline)</string>
+    <string name="title_activity_sms">Sms</string>
+    <string name="title_activity_location">Location</string>
+    <string name="title_activity_cur_loc">Current Location</string>
+    <string name="RetrieveLocation">SEND MESSAGE(encrypted)</string>
+    <string name="title_activity_basic_map">BasicMap</string>
+    <string name="ReverseGeocoding">REVERSE GEOCODING</string>
+    <string name="get_location">Get Location</string>
+    <string name="title_activity_geo_code">Reverse Geocoding</string>
+    <string name="recipient">Recipient:</string>
+    <string name="secretkey">16-Character Secret Key:</string>
+     <string name="message">Message:</string>
+     <string name="send">Send</string>
+      <string name="cancel">Cancel</string>
+      <string name="sender">Sender:</string>
+      <string name="encmsg">Received Encrypted Message:</string>
+      <string name="decmsg">Decrypted Message:</string>
+      <string name="submit">Submit</string>
+      <string name="encdecmsg">GET LOCATION</string>
+       <string name="title_activity_enc_dec">Security</string>
+
+</resources>

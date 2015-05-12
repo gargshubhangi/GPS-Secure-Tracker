@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img7"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+          android:id="@+id/retreive_location_button"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/retreive_location_button"
+          android:layout_alignParentTop="true"
+          android:layout_marginTop="61dp"
+          android:background="#66FF0000"
+          android:text="@string/RetrieveLocation" />
+    
+      <Button
+          android:id="@+id/enc_msg"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/retreive_location_button"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="34dp"
+          android:background="#66FF0000"
+          android:text="@string/encdecmsg" />
+
+      
+
+      <Button
+          android:id="@+id/reverse_geocoding_button"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/enc_msg"
+          android:layout_below="@+id/enc_msg"
+          android:layout_marginTop="34dp"
+          android:background="#66FF0000"
+          android:text="@string/ReverseGeocoding" />
+
+</RelativeLayout>

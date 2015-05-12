@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img7"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="298dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/msgbutton"
+        android:text="@string/SendSMS"
+        android:textSize="30sp" 
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/loc"
+        android:text="@string/curlocation"
+        android:textSize="30sp" />
+
+</LinearLayout>
